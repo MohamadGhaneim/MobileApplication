@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A91555"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A91555"
+        android:text=" welcome"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ibsearch"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:contentDescription="search"
+            android:src="@drawable/ibsearch" />
+        <EditText
+            android:id="@+id/etsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:hint="search"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="add contact"
+        android:backgroundTint="#A91555"
+        android:id="@+id/btnAdd"
+        />
+    <ListView
+        android:id="@+id/lvcontact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
